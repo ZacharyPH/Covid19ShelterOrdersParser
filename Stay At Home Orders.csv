@@ -1,0 +1,46 @@
+Alabama{'order': 'order', 'date': 'date'}
+Alaska {'order': 'Stay at home', 'date': 'effective March 28 at 5 p.m.', 'pop': 1}
+Arizona {'order': 'Stay at home', 'date': 'effective March 31 at 5 p.m.', 'pop': 1}
+California {'order': 'Stay at home', 'date': 'effective March 19', 'pop': 1}
+Colorado {'order': 'Stay at home', 'date': 'effective March 26 at 6 a.m.', 'pop': 1}
+Connecticut {'order': 'Stay at home', 'date': 'effective March 23 at 8 p.m.', 'pop': 1}
+Delaware {'order': 'Shelter in place', 'date': 'effective March 24 at 8 a.m.', 'pop': 1}
+District of Columbia {'order': 'Stay at home', 'date': 'effective April 1 at 12:01 a.m.', 'pop': 1}
+Florida{'order': 'order', 'date': 'date'}
+Georgia{'order': 'order', 'date': 'date'}
+Hawaii {'order': 'Stay at home', 'date': 'effective March 25 at 12:01 a.m.', 'pop': 1}
+Idaho {'order': 'Stay at home', 'date': 'effective March 25 at 1:30 p.m.', 'pop': 1}
+Illinois {'order': 'Stay at home', 'date': 'effective March 21 at 5 p.m.', 'pop': 1}
+Indiana {'order': 'Stay at home', 'date': 'effective March 24 at 11:59 p.m.', 'pop': 1}
+Kansas {'order': 'Stay at home', 'date': 'effective March 30 at 12:01 a.m.', 'pop': 1}
+Kentucky {'order': 'Healthy at home', 'date': 'effective March 26 at 8 p.m.', 'pop': 1}
+Louisiana {'order': 'Stay at home', 'date': 'effective March 23 at 5 p.m.', 'pop': 1}
+Maine{'order': 'order', 'date': 'date'}
+Maryland {'order': 'Stay at home', 'date': 'effective March 30 at 8 p.m.', 'pop': 1}
+Massachusetts {'order': 'Stay at home advisory', 'date': 'effective March 24 at 12 p.m.', 'pop': 1}
+Michigan {'order': 'Stay at home', 'date': 'effective March 24 at 12:01 a.m.', 'pop': 1}
+Minnesota {'order': 'Stay at home', 'date': 'effective March 27 at 11:59 p.m.', 'pop': 1}
+Mississippi{'order': 'order', 'date': 'date'}
+Missouri{'order': 'order', 'date': 'date'}
+Montana {'order': 'Stay at home', 'date': 'effective March 28 at 12:01 a.m.', 'pop': 1}
+New Hampshire {'order': 'Stay at home', 'date': 'effective March 27 at 11:59 p.m.', 'pop': 1}
+New Jersey {'order': 'Stay at home', 'date': 'effective March 21 at 9 p.m.', 'pop': 1}
+New Mexico {'order': 'Stay at home', 'date': 'effective March 24 at 8 a.m.', 'pop': 1}
+New York {'order': 'Stay at home', 'date': 'effective March 22 at 8 p.m.', 'pop': 1}
+North Carolina {'order': 'Stay at home', 'date': 'effective March 30 at 5 p.m.', 'pop': 1}
+Ohio {'order': 'Stay at home', 'date': 'effective March 23 at 11:59 pm.', 'pop': 1}
+Oklahoma{'order': 'order', 'date': 'date'}
+Oregon {'order': 'Stay at home', 'date': 'effective March 23', 'pop': 1}
+Pennsylvania{'order': 'order', 'date': 'date'}
+Puerto Rico {'order': 'Curfew', 'date': 'effective March 15 at 6 p.m.', 'pop': 1}
+Rhode Island {'order': 'Stay at home', 'date': 'effective March 28', 'pop': 1}
+South Carolina{'order': 'order', 'date': 'date'}
+Tennessee {'order': 'Stay at home', 'date': 'effective March 31 at 11:59 p.m.', 'pop': 1}
+Texas{'order': 'order', 'date': 'date'}
+Utah{'order': 'order', 'date': 'date'}
+Vermont {'order': 'Stay at home', 'date': 'effective March 25 at 5 p.m.', 'pop': 1}
+Virginia {'order': 'Stay at home', 'date': 'effective March 30', 'pop': 1}
+Washington {'order': 'Stay at home', 'date': 'effective March 23', 'pop': 1}
+West Virginia {'order': 'Stay at home', 'date': 'effective March 24 at 8 p.m.', 'pop': 1}
+Wisconsin {'order': 'Stay at home', 'date': 'effective March 25 at 8 a.m.', 'pop': 1}
+Wyoming{'order': 'order', 'date': 'date'}
