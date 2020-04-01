@@ -5,6 +5,7 @@ from StateCodes import state_abrv
 
 
 def get_order(place) -> dict:
+    """Returns a dict containing the order for a state"""
     # order = place.contents[1].contents[0]
     when = (place.contents[1].contents[1].contents[0].split(" ") + ["0"])[2:4]
     date_str = " ".join(str(i) for i in when[:2] + ["2020"])
@@ -13,6 +14,7 @@ def get_order(place) -> dict:
 
 
 def get_counties(state) -> list:
+    """Returns a list of dicts of orders by county for a state"""
     orders = []
     for county in state.find_all(attrs={"class": "place-wrap"}):
         name = county.contents[1].contents[0].strip(" ").split(" ")
@@ -31,6 +33,7 @@ def get_counties(state) -> list:
 
 
 def populations(pop) -> int:
+    """Converts a list containing population information into an int"""
     if len(pop) == 1:
         return int(pop[0])
     text2num = {"thousand": 1000,
@@ -39,6 +42,7 @@ def populations(pop) -> int:
 
 
 def get_state_wraps() -> BeautifulSoup.ResultSet:
+    """Parses the NTY article for a list of state and county orders"""
     try:
         r = requests.get('https://www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html')
     except requests.exceptions.MissingSchema:
@@ -50,6 +54,13 @@ def get_state_wraps() -> BeautifulSoup.ResultSet:
 
 
 def populate_states(state_wraps, date, rebuild=False) -> dict:
+    """
+    Attempts to retrieve state and county order
+    :param state_wraps: BeautifulSoup.ResultSet of state data
+    :param date: date NYT article was last updated
+    :param rebuild: (T) fetch website data and update files. (F) retrieve local data from previous fetch
+    :return:
+    """
     datafile = "Covid19ShelterOrders.csv"
     if not rebuild:
         try:
@@ -87,6 +98,7 @@ def populate_states(state_wraps, date, rebuild=False) -> dict:
 
 
 def parse_data(filename) -> dict:
+    """Retrieve order information from local 'Covid19ShelterOrders.csv' and return as dict"""
     states = {}
     orders = open(filename, "r")
     for line in orders.readlines()[:-2]:    # The final two lines reference update data and are not needed
