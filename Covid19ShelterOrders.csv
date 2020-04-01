@@ -1,46 +1,154 @@
-Alabama - {'Birmingham ': {'order': 'Shelter in place', 'date': 'March 24 2020', 'pop': 210000}}
-Alaska - {'Statewide': {'order': 'Stay at home', 'date': 'March 28 2020', 'pop': 737000}}
-Arizona - {'Statewide': {'order': 'Stay at home', 'date': 'March 31 2020', 'pop': 7200000}}
-California - {'Statewide': {'order': 'Stay at home', 'date': 'March 19 2020', 'pop': 39600000}}
-Colorado - {'Statewide': {'order': 'Stay at home', 'date': 'March 26 2020', 'pop': 5700000}}
-Connecticut - {'Statewide': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 3600000}}
-Delaware - {'Statewide': {'order': 'Shelter in place', 'date': 'March 24 2020', 'pop': 973000}}
-District of Columbia - {'Statewide': {'order': 'Stay at home', 'date': 'April 1 2020', 'pop': 702000}}
-Florida - {'Palm Coast ': {'order': 'Stay at home', 'date': 'March 22 2020', 'pop': 88000}, 'Alachua County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 270000}, 'Broward County ': {'order': 'Shelter in place', 'date': 'March 27 2020', 'pop': 2000000}, 'Hillsborough County ': {'order': 'Safer at home', 'date': 'March 27 2020', 'pop': 1400000}, 'Leon County ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 293000}, 'Miami-Dade County ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 2800000}, 'Monroe County ': {'order': 'Safer at home', 'date': 'March 30 2020', 'pop': 75000}, 'Orange County ': {'order': 'Stay at home', 'date': 'March 26 2020', 'pop': 1400000}, 'Osceola County ': {'order': 'Stay at home', 'date': 'March 26 2020', 'pop': 368000}, 'Palm Beach County ': {'order': 'Stay at home', 'date': 'March 30 2020', 'pop': 1500000}, 'Pinellas County ': {'order': 'Stay at home', 'date': 'March 26 2020', 'pop': 975000}}
-Georgia - {'Atlanta ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 498000}, 'Avondale Estates ': {'order': 'Stay at home', 'date': 'March 26 2020', 'pop': 3000}, 'Blakely ': {'order': 'Shelter in place', 'date': 'March 24 2020', 'pop': 5000}, 'Brookhaven ': {'order': 'Shelter in place', 'date': 'March 24 2020', 'pop': 53000}, 'Carrollton ': {'order': 'Shelter in place', 'date': 'March 25 2020', 'pop': 26000}, 'Chamblee ': {'order': 'Stay at home', 'date': 'March 28 2020', 'pop': 30000}, 'Clarkston ': {'order': 'Stay at home', 'date': 'March 29 2020', 'pop': 13000}, 'Decatur ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 23000}, 'Doraville ': {'order': 'Shelter in place', 'date': 'March 26 2020', 'pop': 11000}, 'Dunwoody ': {'order': 'Shelter in place', 'date': 'March 29 2020', 'pop': 49000}, 'Forest Park ': {'order': 'Shelter in place', 'date': 'March 30 2020', 'pop': 20000}, 'Savannah ': {'order': 'Shelter in place', 'date': 'March 24 2020', 'pop': 146000}, 'Athens-Clarke County ': {'order': 'Shelter in place', 'date': 'March 20 2020', 'pop': 126000}, 'Cobb County ': {'order': 'Shelter in place', 'date': 'March 25 2020', 'pop': 757000}, 'Dougherty County ': {'order': 'Shelter in place', 'date': 'March 21 2020', 'pop': 91000}, 'Gwinnett County ': {'order': 'Stay at home', 'date': 'March 28 2020', 'pop': 928000}}
-Hawaii - {'Statewide': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 1400000}}
-Idaho - {'Statewide': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 1800000}}
-Illinois - {'Statewide': {'order': 'Stay at home', 'date': 'March 21 2020', 'pop': 12700000}}
-Indiana - {'Statewide': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 6700000}}
-Kansas - {'Statewide': {'order': 'Stay at home', 'date': 'March 30 2020', 'pop': 2900000}}
-Kentucky - {'Statewide': {'order': 'Healthy at home', 'date': 'March 26 2020', 'pop': 4500000}}
-Louisiana - {'Statewide': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 4600000}}
-Maine - {'Statewide': {'order': 'Stay at home', 'date': 'April 2 2020', 'pop': 1300000}}
-Maryland - {'Statewide': {'order': 'Stay at home', 'date': 'March 30 2020', 'pop': 6000000}}
-Massachusetts - {'Statewide': {'order': 'Stay at home advisory', 'date': 'March 24 2020', 'pop': 6900000}}
-Michigan - {'Statewide': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 10000000}}
-Minnesota - {'Statewide': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 5600000}}
-Mississippi - {'Oxford ': {'order': 'Stay at home', 'date': 'March 22 2020', 'pop': 25000}, 'Tupelo ': {'order': 'Shelter in place', 'date': 'March 22 2020', 'pop': 50000}, 'Lauderdale County ': {'order': 'Shelter in place', 'date': 'March 31 2020', 'pop': 75000}}
-Missouri - {'Kansas City ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 492000}, 'St. Joseph ': {'order': 'Shelter in place', 'date': 'March 24 2020', 'pop': 76000}, 'St. Louis ': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 303000}, 'Boone County ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 180000}, 'Cass County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 105000}, 'Clay County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 246000}, 'Cole County ': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 77000}, 'Greene County ': {'order': 'Stay at home', 'date': 'March 26 2020', 'pop': 292000}, 'Jackson County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 700000}, 'Jefferson County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 224000}, 'Platte County ': {'order': 'Shelter in place', 'date': 'March 24 2020', 'pop': 103000}, 'Randolph County ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 25000}, 'Ray County ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 23000}, 'St. Louis County ': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 1000000}}
-Montana - {'Statewide': {'order': 'Stay at home', 'date': 'March 28 2020', 'pop': 1100000}}
-New Hampshire - {'Statewide': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 1400000}}
-New Jersey - {'Statewide': {'order': 'Stay at home', 'date': 'March 21 2020', 'pop': 8900000}}
-New Mexico - {'Statewide': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 2100000}}
-New York - {'Statewide': {'order': 'Stay at home', 'date': 'March 22 2020', 'pop': 19500000}}
-North Carolina - {'Statewide': {'order': 'Stay at home', 'date': 'March 30 2020', 'pop': 10400000}}
-Ohio - {'Statewide': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 11700000}}
-Oklahoma - {'Edmond ': {'order': 'Shelter in place', 'date': 'March 30 2020', 'pop': 93000}, 'Norman ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 123000}, 'Oklahoma City ': {'order': 'Shelter in place', 'date': 'March 28 2020', 'pop': 649000}, 'Stillwater ': {'order': 'Shelter in place', 'date': 'March 30 2020', 'pop': 50000}, 'Tulsa ': {'order': 'Shelter in place', 'date': 'March 28 2020', 'pop': 401000}}
-Oregon - {'Statewide': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 4200000}}
-Pennsylvania - {'Allegheny County ': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 1200000}, 'Beaver County ': {'order': 'Stay at home', 'date': 'March 28 2020', 'pop': 165000}, 'Berks County ': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 420000}, 'Bucks County ': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 628000}, 'Butler County ': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 188000}, 'Carbon County ': {'order': 'Stay at home', 'date': 'March 30 2020', 'pop': 64000}, 'Centre County ': {'order': 'Stay at home', 'date': 'March 28 2020', 'pop': 163000}, 'Chester County ': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 522000}, 'Cumberland County ': {'order': 'Stay at home', 'date': 'March 30 2020', 'pop': 251000}, 'Dauphin County ': {'order': 'Stay at home', 'date': 'March 30 2020', 'pop': 277000}, 'Delaware County ': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 565000}, 'Erie County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 272000}, 'Lackawanna County ': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 211000}, 'Lancaster County ': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 544000}, 'Lehigh County ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 368000}, 'Luzerne County ': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 318000}, 'Monroe County ': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 170000}, 'Montgomery County ': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 829000}, 'Northampton County ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 305000}, 'Philadelphia County ': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 1600000}, 'Pike County ': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 56000}, 'Schuylkill County ': {'order': 'Stay at home', 'date': 'March 30 2020', 'pop': 142000}, 'Washington County ': {'order': 'Stay at home', 'date': 'March 28 2020', 'pop': 207000}, 'Wayne County ': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 51000}, 'Westmoreland County ': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 351000}, 'York County ': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 448000}}
-Puerto Rico - {'Statewide': {'order': 'Curfew', 'date': 'March 15 2020', 'pop': 3200000}}
-Rhode Island - {'Statewide': {'order': 'Stay at home', 'date': 'March 28 2020', 'pop': 1100000}}
-South Carolina - {'Charleston ': {'order': 'Stay at home', 'date': 'March 26 2020', 'pop': 136000}, 'Columbia ': {'order': 'Stay at home', 'date': 'March 29 2020', 'pop': 133000}}
-Tennessee - {'Statewide': {'order': 'Stay at home', 'date': 'March 31 2020', 'pop': 6800000}}
-Texas - {'Amarillo ': {'order': 'Stay at home', 'date': 'March 30 2020', 'pop': 200000}, 'Lubbock ': {'order': 'Stay at home', 'date': 'March 29 2020', 'pop': 250000}, 'Bell County ': {'order': 'Shelter in place', 'date': 'March 23 2020', 'pop': 356000}, 'Bexar County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 2000000}, 'Brazoria County ': {'order': 'Stay at home', 'date': 'March 26 2020', 'pop': 370000}, 'Cameron County ': {'order': 'Shelter in place', 'date': 'March 25 2020', 'pop': 424000}, 'Chambers County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 42000}, 'Collin County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 1000000}, 'Dallas County ': {'order': 'Shelter in place', 'date': 'March 23 2020', 'pop': 2600000}, 'Denton County ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 859000}, 'El Paso County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 841000}, 'Ellis County ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 179000}, 'Fort Bend County ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 788000}, 'Galveston County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 338000}, 'Gregg County ': {'order': 'Shelter in place', 'date': 'March 26 2020', 'pop': 124000}, 'Harris County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 4700000}, 'Harrison County ': {'order': 'Shelter in place', 'date': 'March 31 2020', 'pop': 67000}, 'Hays County ': {'order': 'Stay at home', 'date': 'March 26 2020', 'pop': 223000}, 'Hildalgo County ': {'order': 'Shelter at home', 'date': 'March 26 2020', 'pop': 866000}, 'Hunt County ': {'order': 'Shelter in place', 'date': 'March 24 2020', 'pop': 96000}, 'Kaufman County ': {'order': 'Shelter in place', 'date': 'March 25 2020', 'pop': 129000}, 'Liberty County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 86000}, 'McLennan County ': {'order': 'Shelter in place', 'date': 'March 23 2020', 'pop': 255000}, 'Nacogdoches County ': {'order': 'Stay at home', 'date': 'March 30 2020', 'pop': 66000}, 'Nueces County ': {'order': 'Stay at home', 'date': 'March 26 2020', 'pop': 362000}, 'Polk County ': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 50000}, 'Robertson County ': {'order': 'Shelter in place', 'date': 'March 25 2020', 'pop': 17000}, 'Rockwall County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 101000}, 'San Jacinto County ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 29000}, 'Scurry County ': {'order': 'Shelter in place', 'date': 'March 27 2020', 'pop': 17000}, 'Smith County ': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 230000}, 'Starr County ': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 65000}, 'Tarrant County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 2100000}, 'Travis County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 1200000}, 'Wichita County ': {'order': 'Shelter in place', 'date': 'March 27 2020', 'pop': 132000}, 'Willacy County ': {'order': 'Shelter in place', 'date': 'March 26 2020', 'pop': 22000}, 'Williamson County ': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 567000}}
-Utah - {'Salt Lake County ': {'order': 'Stay at home', 'date': 'March 30 2020', 'pop': 1200000}, 'Summit County ': {'order': 'Stay at home', 'date': 'March 27 2020', 'pop': 42000}}
-Vermont - {'Statewide': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 626000}}
-Virginia - {'Statewide': {'order': 'Stay at home', 'date': 'March 30 2020', 'pop': 8500000}}
-Washington - {'Statewide': {'order': 'Stay at home', 'date': 'March 23 2020', 'pop': 7500000}}
-West Virginia - {'Statewide': {'order': 'Stay at home', 'date': 'March 24 2020', 'pop': 1800000}}
-Wisconsin - {'Statewide': {'order': 'Stay at home', 'date': 'March 25 2020', 'pop': 5800000}}
-Wyoming - {'Jackson ': {'order': 'Stay at home', 'date': 'March 28 2020', 'pop': 10000}}
+State, County, Population, Order, Date
+Alabama, Birmingham , 210000, Shelter in place, March 24 2020
+Alaska, Statewide, 737000, Stay at home, March 28 2020
+Arizona, Statewide, 7200000, Stay at home, March 31 2020
+California, Statewide, 39600000, Stay at home, March 19 2020
+Colorado, Statewide, 5700000, Stay at home, March 26 2020
+Connecticut, Statewide, 3600000, Stay at home, March 23 2020
+Delaware, Statewide, 973000, Shelter in place, March 24 2020
+District of Columbia, Statewide, 702000, Stay at home, April 1 2020
+Florida, Palm Coast , 88000, Stay at home, March 22 2020
+Florida, Alachua County , 270000, Stay at home, March 24 2020
+Florida, Broward County , 2000000, Shelter in place, March 27 2020
+Florida, Hillsborough County , 1400000, Safer at home, March 27 2020
+Florida, Leon County , 293000, Stay at home, March 25 2020
+Florida, Miami-Dade County , 2800000, Stay at home, March 25 2020
+Florida, Monroe County , 75000, Safer at home, March 30 2020
+Florida, Orange County , 1400000, Stay at home, March 26 2020
+Florida, Osceola County , 368000, Stay at home, March 26 2020
+Florida, Palm Beach County , 1500000, Stay at home, March 30 2020
+Florida, Pinellas County , 975000, Stay at home, March 26 2020
+Georgia, Atlanta , 498000, Stay at home, March 24 2020
+Georgia, Avondale Estates , 3000, Stay at home, March 26 2020
+Georgia, Blakely , 5000, Shelter in place, March 24 2020
+Georgia, Brookhaven , 53000, Shelter in place, March 24 2020
+Georgia, Carrollton , 26000, Shelter in place, March 25 2020
+Georgia, Chamblee , 30000, Stay at home, March 28 2020
+Georgia, Clarkston , 13000, Stay at home, March 29 2020
+Georgia, Decatur , 23000, Stay at home, March 25 2020
+Georgia, Doraville , 11000, Shelter in place, March 26 2020
+Georgia, Dunwoody , 49000, Shelter in place, March 29 2020
+Georgia, Forest Park , 20000, Shelter in place, March 30 2020
+Georgia, Savannah , 146000, Shelter in place, March 24 2020
+Georgia, Athens-Clarke County , 126000, Shelter in place, March 20 2020
+Georgia, Cobb County , 757000, Shelter in place, March 25 2020
+Georgia, Dougherty County , 91000, Shelter in place, March 21 2020
+Georgia, Gwinnett County , 928000, Stay at home, March 28 2020
+Hawaii, Statewide, 1400000, Stay at home, March 25 2020
+Idaho, Statewide, 1800000, Stay at home, March 25 2020
+Illinois, Statewide, 12700000, Stay at home, March 21 2020
+Indiana, Statewide, 6700000, Stay at home, March 24 2020
+Kansas, Statewide, 2900000, Stay at home, March 30 2020
+Kentucky, Statewide, 4500000, Healthy at home, March 26 2020
+Louisiana, Statewide, 4600000, Stay at home, March 23 2020
+Maine, Statewide, 1300000, Stay at home, April 2 2020
+Maryland, Statewide, 6000000, Stay at home, March 30 2020
+Massachusetts, Statewide, 6900000, Stay at home advisory, March 24 2020
+Michigan, Statewide, 10000000, Stay at home, March 24 2020
+Minnesota, Statewide, 5600000, Stay at home, March 27 2020
+Mississippi, Oxford , 25000, Stay at home, March 22 2020
+Mississippi, Tupelo , 50000, Shelter in place, March 22 2020
+Mississippi, Lauderdale County , 75000, Shelter in place, March 31 2020
+Missouri, Kansas City , 492000, Stay at home, March 24 2020
+Missouri, St. Joseph , 76000, Shelter in place, March 24 2020
+Missouri, St. Louis , 303000, Stay at home, March 23 2020
+Missouri, Boone County , 180000, Stay at home, March 25 2020
+Missouri, Cass County , 105000, Stay at home, March 24 2020
+Missouri, Clay County , 246000, Stay at home, March 24 2020
+Missouri, Cole County , 77000, Stay at home, March 23 2020
+Missouri, Greene County , 292000, Stay at home, March 26 2020
+Missouri, Jackson County , 700000, Stay at home, March 24 2020
+Missouri, Jefferson County , 224000, Stay at home, March 24 2020
+Missouri, Platte County , 103000, Shelter in place, March 24 2020
+Missouri, Randolph County , 25000, Stay at home, March 25 2020
+Missouri, Ray County , 23000, Stay at home, March 25 2020
+Missouri, St. Louis County , 1000000, Stay at home, March 23 2020
+Montana, Statewide, 1100000, Stay at home, March 28 2020
+New Hampshire, Statewide, 1400000, Stay at home, March 27 2020
+New Jersey, Statewide, 8900000, Stay at home, March 21 2020
+New Mexico, Statewide, 2100000, Stay at home, March 24 2020
+New York, Statewide, 19500000, Stay at home, March 22 2020
+North Carolina, Statewide, 10400000, Stay at home, March 30 2020
+Ohio, Statewide, 11700000, Stay at home, March 23 2020
+Oklahoma, Edmond , 93000, Shelter in place, March 30 2020
+Oklahoma, Norman , 123000, Stay at home, March 25 2020
+Oklahoma, Oklahoma City , 649000, Shelter in place, March 28 2020
+Oklahoma, Stillwater , 50000, Shelter in place, March 30 2020
+Oklahoma, Tulsa , 401000, Shelter in place, March 28 2020
+Oregon, Statewide, 4200000, Stay at home, March 23 2020
+Pennsylvania, Allegheny County , 1200000, Stay at home, March 23 2020
+Pennsylvania, Beaver County , 165000, Stay at home, March 28 2020
+Pennsylvania, Berks County , 420000, Stay at home, March 27 2020
+Pennsylvania, Bucks County , 628000, Stay at home, March 23 2020
+Pennsylvania, Butler County , 188000, Stay at home, March 27 2020
+Pennsylvania, Carbon County , 64000, Stay at home, March 30 2020
+Pennsylvania, Centre County , 163000, Stay at home, March 28 2020
+Pennsylvania, Chester County , 522000, Stay at home, March 23 2020
+Pennsylvania, Cumberland County , 251000, Stay at home, March 30 2020
+Pennsylvania, Dauphin County , 277000, Stay at home, March 30 2020
+Pennsylvania, Delaware County , 565000, Stay at home, March 23 2020
+Pennsylvania, Erie County , 272000, Stay at home, March 24 2020
+Pennsylvania, Lackawanna County , 211000, Stay at home, March 27 2020
+Pennsylvania, Lancaster County , 544000, Stay at home, March 27 2020
+Pennsylvania, Lehigh County , 368000, Stay at home, March 25 2020
+Pennsylvania, Luzerne County , 318000, Stay at home, March 27 2020
+Pennsylvania, Monroe County , 170000, Stay at home, March 23 2020
+Pennsylvania, Montgomery County , 829000, Stay at home, March 23 2020
+Pennsylvania, Northampton County , 305000, Stay at home, March 25 2020
+Pennsylvania, Philadelphia County , 1600000, Stay at home, March 23 2020
+Pennsylvania, Pike County , 56000, Stay at home, March 27 2020
+Pennsylvania, Schuylkill County , 142000, Stay at home, March 30 2020
+Pennsylvania, Washington County , 207000, Stay at home, March 28 2020
+Pennsylvania, Wayne County , 51000, Stay at home, March 27 2020
+Pennsylvania, Westmoreland County , 351000, Stay at home, March 27 2020
+Pennsylvania, York County , 448000, Stay at home, March 27 2020
+Puerto Rico, Statewide, 3200000, Curfew, March 15 2020
+Rhode Island, Statewide, 1100000, Stay at home, March 28 2020
+South Carolina, Charleston , 136000, Stay at home, March 26 2020
+South Carolina, Columbia , 133000, Stay at home, March 29 2020
+Tennessee, Statewide, 6800000, Stay at home, March 31 2020
+Texas, Amarillo , 200000, Stay at home, March 30 2020
+Texas, Lubbock , 250000, Stay at home, March 29 2020
+Texas, Bell County , 356000, Shelter in place, March 23 2020
+Texas, Bexar County , 2000000, Stay at home, March 24 2020
+Texas, Brazoria County , 370000, Stay at home, March 26 2020
+Texas, Cameron County , 424000, Shelter in place, March 25 2020
+Texas, Chambers County , 42000, Stay at home, March 24 2020
+Texas, Collin County , 1000000, Stay at home, March 24 2020
+Texas, Dallas County , 2600000, Shelter in place, March 23 2020
+Texas, Denton County , 859000, Stay at home, March 25 2020
+Texas, El Paso County , 841000, Stay at home, March 24 2020
+Texas, Ellis County , 179000, Stay at home, March 25 2020
+Texas, Fort Bend County , 788000, Stay at home, March 25 2020
+Texas, Galveston County , 338000, Stay at home, March 24 2020
+Texas, Gregg County , 124000, Shelter in place, March 26 2020
+Texas, Harris County , 4700000, Stay at home, March 24 2020
+Texas, Harrison County , 67000, Shelter in place, March 31 2020
+Texas, Hays County , 223000, Stay at home, March 26 2020
+Texas, Hildalgo County , 866000, Shelter at home, March 26 2020
+Texas, Hunt County , 96000, Shelter in place, March 24 2020
+Texas, Kaufman County , 129000, Shelter in place, March 25 2020
+Texas, Liberty County , 86000, Stay at home, March 24 2020
+Texas, McLennan County , 255000, Shelter in place, March 23 2020
+Texas, Nacogdoches County , 66000, Stay at home, March 30 2020
+Texas, Nueces County , 362000, Stay at home, March 26 2020
+Texas, Polk County , 50000, Stay at home, March 27 2020
+Texas, Robertson County , 17000, Shelter in place, March 25 2020
+Texas, Rockwall County , 101000, Stay at home, March 24 2020
+Texas, San Jacinto County , 29000, Stay at home, March 25 2020
+Texas, Scurry County , 17000, Shelter in place, March 27 2020
+Texas, Smith County , 230000, Stay at home, March 27 2020
+Texas, Starr County , 65000, Stay at home, March 25 2020
+Texas, Tarrant County , 2100000, Stay at home, March 24 2020
+Texas, Travis County , 1200000, Stay at home, March 24 2020
+Texas, Wichita County , 132000, Shelter in place, March 27 2020
+Texas, Willacy County , 22000, Shelter in place, March 26 2020
+Texas, Williamson County , 567000, Stay at home, March 24 2020
+Utah, Salt Lake County , 1200000, Stay at home, March 30 2020
+Utah, Summit County , 42000, Stay at home, March 27 2020
+Vermont, Statewide, 626000, Stay at home, March 25 2020
+Virginia, Statewide, 8500000, Stay at home, March 30 2020
+Washington, Statewide, 7500000, Stay at home, March 23 2020
+West Virginia, Statewide, 1800000, Stay at home, March 24 2020
+Wisconsin, Statewide, 5800000, Stay at home, March 25 2020
+Wyoming, Jackson , 10000, Stay at home, March 28 2020

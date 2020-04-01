@@ -39,7 +39,16 @@ def get_state_wraps():
     return soup.find_all(attrs={"class": "state-wrap"})
 
 
-def populate_states(state_wraps, save=True):
+def populate_states(state_wraps, save=True, rebuild=False):
+    datafile = "Covid19ShelterOrders.csv"
+    if not rebuild:
+        try:
+            return parse_data(datafile)
+        except FileNotFoundError:
+            print("Stored data cannot be found.", end=" ")
+
+    print("Rebuilding...")
+
     states = {}
     for state_wrap in state_wraps:
         st = state_wrap.contents[1].next.strip(" ")
@@ -53,15 +62,23 @@ def populate_states(state_wraps, save=True):
         states[st] = order
 
     if save:
-        with open("Covid19ShelterOrders.csv", "w") as orders:
-            orders.write("\n".join(str(state) + " - " + str(data) for state, data in states.items()))
-
+        with open(datafile, "w") as orders:
+            orders.write("State, County, Population, Order, Date\n")
+            for state, info in states.items():
+                for county, order in info.items():
+                    orders.write(state + ", " + county + ", " + str(order["pop"]) + ", "
+                                 + order["order"] + ", " + order["date"] + "\n")
+        print("Data written to", datafile)
     return states
+
+
+def parse_data(filename):
+    pass
 
 
 def main():
     state_wraps = get_state_wraps()
-    states = populate_states(state_wraps)
+    states = populate_states(state_wraps, )
     return states
 
 
