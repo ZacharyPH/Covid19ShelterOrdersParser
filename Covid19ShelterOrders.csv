@@ -1,12 +1,12 @@
 State, County, Population, Order, Date
 Alabama, Birmingham, 210000, Shelter in place, 03/24/2020
-Alaska, Statewide, 737000, Stay at home, March 28 2020
-Arizona, Statewide, 7200000, Stay at home, March 31 2020
-California, Statewide, 39600000, Stay at home, March 19 2020
-Colorado, Statewide, 5700000, Stay at home, March 26 2020
-Connecticut, Statewide, 3600000, Stay at home, March 23 2020
-Delaware, Statewide, 973000, Shelter in place, March 24 2020
-District of Columbia, Statewide, 702000, Stay at home, April 1 2020
+Alaska, Statewide, 737000, Stay at home, 03/28/2020
+Arizona, Statewide, 7200000, Stay at home, 03/31/2020
+California, Statewide, 39600000, Stay at home, 03/19/2020
+Colorado, Statewide, 5700000, Stay at home, 03/26/2020
+Connecticut, Statewide, 3600000, Stay at home, 03/23/2020
+Delaware, Statewide, 973000, Shelter in place, 03/24/2020
+District of Columbia, Statewide, 702000, Stay at home, 04/01/2020
 Florida, Palm Coast, 88000, Stay at home, 03/22/2020
 Florida, Alachua, 270000, Stay at home, 03/24/2020
 Florida, Broward, 2000000, Shelter in place, 03/27/2020
@@ -34,18 +34,18 @@ Georgia, Athens-Clarke, 126000, Shelter in place, 03/20/2020
 Georgia, Cobb, 757000, Shelter in place, 03/25/2020
 Georgia, Dougherty, 91000, Shelter in place, 03/21/2020
 Georgia, Gwinnett, 928000, Stay at home, 03/28/2020
-Hawaii, Statewide, 1400000, Stay at home, March 25 2020
-Idaho, Statewide, 1800000, Stay at home, March 25 2020
-Illinois, Statewide, 12700000, Stay at home, March 21 2020
-Indiana, Statewide, 6700000, Stay at home, March 24 2020
-Kansas, Statewide, 2900000, Stay at home, March 30 2020
-Kentucky, Statewide, 4500000, Healthy at home, March 26 2020
-Louisiana, Statewide, 4600000, Stay at home, March 23 2020
-Maine, Statewide, 1300000, Stay at home, April 2 2020
-Maryland, Statewide, 6000000, Stay at home, March 30 2020
-Massachusetts, Statewide, 6900000, Stay at home advisory, March 24 2020
-Michigan, Statewide, 10000000, Stay at home, March 24 2020
-Minnesota, Statewide, 5600000, Stay at home, March 27 2020
+Hawaii, Statewide, 1400000, Stay at home, 03/25/2020
+Idaho, Statewide, 1800000, Stay at home, 03/25/2020
+Illinois, Statewide, 12700000, Stay at home, 03/21/2020
+Indiana, Statewide, 6700000, Stay at home, 03/24/2020
+Kansas, Statewide, 2900000, Stay at home, 03/30/2020
+Kentucky, Statewide, 4500000, Healthy at home, 03/26/2020
+Louisiana, Statewide, 4600000, Stay at home, 03/23/2020
+Maine, Statewide, 1300000, Stay at home, 04/02/2020
+Maryland, Statewide, 6000000, Stay at home, 03/30/2020
+Massachusetts, Statewide, 6900000, Stay at home advisory, 03/24/2020
+Michigan, Statewide, 10000000, Stay at home, 03/24/2020
+Minnesota, Statewide, 5600000, Stay at home, 03/27/2020
 Mississippi, Oxford, 25000, Stay at home, 03/22/2020
 Mississippi, Tupelo, 50000, Shelter in place, 03/22/2020
 Mississippi, Lauderdale, 75000, Shelter in place, 03/31/2020
@@ -62,19 +62,19 @@ Missouri, Jefferson, 224000, Stay at home, 03/24/2020
 Missouri, Platte, 103000, Shelter in place, 03/24/2020
 Missouri, Randolph, 25000, Stay at home, 03/25/2020
 Missouri, Ray, 23000, Stay at home, 03/25/2020
-Montana, Statewide, 1100000, Stay at home, March 28 2020
-New Hampshire, Statewide, 1400000, Stay at home, March 27 2020
-New Jersey, Statewide, 8900000, Stay at home, March 21 2020
-New Mexico, Statewide, 2100000, Stay at home, March 24 2020
-New York, Statewide, 19500000, Stay at home, March 22 2020
-North Carolina, Statewide, 10400000, Stay at home, March 30 2020
-Ohio, Statewide, 11700000, Stay at home, March 23 2020
+Montana, Statewide, 1100000, Stay at home, 03/28/2020
+New Hampshire, Statewide, 1400000, Stay at home, 03/27/2020
+New Jersey, Statewide, 8900000, Stay at home, 03/21/2020
+New Mexico, Statewide, 2100000, Stay at home, 03/24/2020
+New York, Statewide, 19500000, Stay at home, 03/22/2020
+North Carolina, Statewide, 10400000, Stay at home, 03/30/2020
+Ohio, Statewide, 11700000, Stay at home, 03/23/2020
 Oklahoma, Edmond, 93000, Shelter in place, 03/30/2020
 Oklahoma, Norman, 123000, Stay at home, 03/25/2020
 Oklahoma, Oklahoma City, 649000, Shelter in place, 03/28/2020
 Oklahoma, Stillwater, 50000, Shelter in place, 03/30/2020
 Oklahoma, Tulsa, 401000, Shelter in place, 03/28/2020
-Oregon, Statewide, 4200000, Stay at home, March 23 2020
+Oregon, Statewide, 4200000, Stay at home, 03/23/2020
 Pennsylvania, Allegheny, 1200000, Stay at home, 03/23/2020
 Pennsylvania, Beaver, 165000, Stay at home, 03/28/2020
 Pennsylvania, Berks, 420000, Stay at home, 03/27/2020
@@ -101,11 +101,11 @@ Pennsylvania, Washington, 207000, Stay at home, 03/28/2020
 Pennsylvania, Wayne, 51000, Stay at home, 03/27/2020
 Pennsylvania, Westmoreland, 351000, Stay at home, 03/27/2020
 Pennsylvania, York, 448000, Stay at home, 03/27/2020
-Puerto Rico, Statewide, 3200000, Curfew, March 15 2020
-Rhode Island, Statewide, 1100000, Stay at home, March 28 2020
+Puerto Rico, Statewide, 3200000, Curfew, 03/15/2020
+Rhode Island, Statewide, 1100000, Stay at home, 03/28/2020
 South Carolina, Charleston, 136000, Stay at home, 03/26/2020
 South Carolina, Columbia, 133000, Stay at home, 03/29/2020
-Tennessee, Statewide, 6800000, Stay at home, March 31 2020
+Tennessee, Statewide, 6800000, Stay at home, 03/31/2020
 Texas, Amarillo, 200000, Stay at home, 03/30/2020
 Texas, Lubbock, 250000, Stay at home, 03/29/2020
 Texas, Bell, 356000, Shelter in place, 03/23/2020
@@ -145,11 +145,11 @@ Texas, Willacy, 22000, Shelter in place, 03/26/2020
 Texas, Williamson, 567000, Stay at home, 03/24/2020
 Utah, Salt Lake, 1200000, Stay at home, 03/30/2020
 Utah, Summit, 42000, Stay at home, 03/27/2020
-Vermont, Statewide, 626000, Stay at home, March 25 2020
-Virginia, Statewide, 8500000, Stay at home, March 30 2020
-Washington, Statewide, 7500000, Stay at home, March 23 2020
-West Virginia, Statewide, 1800000, Stay at home, March 24 2020
-Wisconsin, Statewide, 5800000, Stay at home, March 25 2020
+Vermont, Statewide, 626000, Stay at home, 03/25/2020
+Virginia, Statewide, 8500000, Stay at home, 03/30/2020
+Washington, Statewide, 7500000, Stay at home, 03/23/2020
+West Virginia, Statewide, 1800000, Stay at home, 03/24/2020
+Wisconsin, Statewide, 5800000, Stay at home, 03/25/2020
 Wyoming, Jackson, 10000, Stay at home, 03/28/2020
 
 Script last run:,04/01/2020, Data from:,March 31 2020

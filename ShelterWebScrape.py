@@ -6,7 +6,8 @@ from bs4 import BeautifulSoup
 def get_order(place) -> dict:
     order = place.contents[1].contents[0]
     when = place.contents[1].contents[1].contents[0].split(" ")[2:4]
-    date = " ".join(str(i) for i in when) + " 2020"
+    date_str = " ".join(str(i) for i in when) + " 2020"
+    date = datetime.strptime(date_str, "%B %d %Y").strftime("%m/%d/%Y")
     return {"order": order, "date": date}
 
 
