@@ -1,12 +1,13 @@
-from datetime import datetime
 import requests
+from datetime import datetime
 from bs4 import BeautifulSoup
+from StateCodes import state_abrv
 
 
 def get_order(place) -> dict:
     order = place.contents[1].contents[0]
-    when = place.contents[1].contents[1].contents[0].split(" ")[2:4]
-    date_str = " ".join(str(i) for i in when) + " 2020"
+    when = (place.contents[1].contents[1].contents[0].split(" ") + ["0"])[2:4]
+    date_str = " ".join(str(i) for i in when[:2] + ["2020"])
     date = datetime.strptime(date_str, "%B %d %Y").strftime("%m/%d/%Y")
     return {"order": order, "date": date}
 
@@ -59,7 +60,7 @@ def populate_states(state_wraps, date, rebuild=False):
 
     states = {}
     for state_wrap in state_wraps:
-        st = state_wrap.contents[1].next.strip(" ")
+        st = state_abrv(state_wrap.contents[1].next.strip(" "))
         if len(state_wrap.attrs["class"]) == 2:
             order = get_order(state_wrap.contents[5])
             order["pop"] = populations(state_wrap.contents[1].contents[1].contents[0].replace(",", "").split(" ")[1:-1])
