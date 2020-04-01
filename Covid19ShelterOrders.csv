@@ -1,5 +1,5 @@
 State, County, Population, Order, Date
-Alabama, Birmingham , 210000, Shelter in place, March 24 2020
+Alabama, Birmingham, 210000, Shelter in place, March 24 2020
 Alaska, Statewide, 737000, Stay at home, March 28 2020
 Arizona, Statewide, 7200000, Stay at home, March 31 2020
 California, Statewide, 39600000, Stay at home, March 19 2020
@@ -7,33 +7,33 @@ Colorado, Statewide, 5700000, Stay at home, March 26 2020
 Connecticut, Statewide, 3600000, Stay at home, March 23 2020
 Delaware, Statewide, 973000, Shelter in place, March 24 2020
 District of Columbia, Statewide, 702000, Stay at home, April 1 2020
-Florida, Palm Coast , 88000, Stay at home, March 22 2020
-Florida, Alachua County , 270000, Stay at home, March 24 2020
-Florida, Broward County , 2000000, Shelter in place, March 27 2020
-Florida, Hillsborough County , 1400000, Safer at home, March 27 2020
-Florida, Leon County , 293000, Stay at home, March 25 2020
-Florida, Miami-Dade County , 2800000, Stay at home, March 25 2020
-Florida, Monroe County , 75000, Safer at home, March 30 2020
-Florida, Orange County , 1400000, Stay at home, March 26 2020
-Florida, Osceola County , 368000, Stay at home, March 26 2020
-Florida, Palm Beach County , 1500000, Stay at home, March 30 2020
-Florida, Pinellas County , 975000, Stay at home, March 26 2020
-Georgia, Atlanta , 498000, Stay at home, March 24 2020
-Georgia, Avondale Estates , 3000, Stay at home, March 26 2020
-Georgia, Blakely , 5000, Shelter in place, March 24 2020
-Georgia, Brookhaven , 53000, Shelter in place, March 24 2020
-Georgia, Carrollton , 26000, Shelter in place, March 25 2020
-Georgia, Chamblee , 30000, Stay at home, March 28 2020
-Georgia, Clarkston , 13000, Stay at home, March 29 2020
-Georgia, Decatur , 23000, Stay at home, March 25 2020
-Georgia, Doraville , 11000, Shelter in place, March 26 2020
-Georgia, Dunwoody , 49000, Shelter in place, March 29 2020
-Georgia, Forest Park , 20000, Shelter in place, March 30 2020
-Georgia, Savannah , 146000, Shelter in place, March 24 2020
-Georgia, Athens-Clarke County , 126000, Shelter in place, March 20 2020
-Georgia, Cobb County , 757000, Shelter in place, March 25 2020
-Georgia, Dougherty County , 91000, Shelter in place, March 21 2020
-Georgia, Gwinnett County , 928000, Stay at home, March 28 2020
+Florida, Palm Coast, 88000, Stay at home, March 22 2020
+Florida, Alachua, 270000, Stay at home, March 24 2020
+Florida, Broward, 2000000, Shelter in place, March 27 2020
+Florida, Hillsborough, 1400000, Safer at home, March 27 2020
+Florida, Leon, 293000, Stay at home, March 25 2020
+Florida, Miami-Dade, 2800000, Stay at home, March 25 2020
+Florida, Monroe, 75000, Safer at home, March 30 2020
+Florida, Orange, 1400000, Stay at home, March 26 2020
+Florida, Osceola, 368000, Stay at home, March 26 2020
+Florida, Palm Beach, 1500000, Stay at home, March 30 2020
+Florida, Pinellas, 975000, Stay at home, March 26 2020
+Georgia, Atlanta, 498000, Stay at home, March 24 2020
+Georgia, Avondale Estates, 3000, Stay at home, March 26 2020
+Georgia, Blakely, 5000, Shelter in place, March 24 2020
+Georgia, Brookhaven, 53000, Shelter in place, March 24 2020
+Georgia, Carrollton, 26000, Shelter in place, March 25 2020
+Georgia, Chamblee, 30000, Stay at home, March 28 2020
+Georgia, Clarkston, 13000, Stay at home, March 29 2020
+Georgia, Decatur, 23000, Stay at home, March 25 2020
+Georgia, Doraville, 11000, Shelter in place, March 26 2020
+Georgia, Dunwoody, 49000, Shelter in place, March 29 2020
+Georgia, Forest Park, 20000, Shelter in place, March 30 2020
+Georgia, Savannah, 146000, Shelter in place, March 24 2020
+Georgia, Athens-Clarke, 126000, Shelter in place, March 20 2020
+Georgia, Cobb, 757000, Shelter in place, March 25 2020
+Georgia, Dougherty, 91000, Shelter in place, March 21 2020
+Georgia, Gwinnett, 928000, Stay at home, March 28 2020
 Hawaii, Statewide, 1400000, Stay at home, March 25 2020
 Idaho, Statewide, 1800000, Stay at home, March 25 2020
 Illinois, Statewide, 12700000, Stay at home, March 21 2020
@@ -46,23 +46,22 @@ Maryland, Statewide, 6000000, Stay at home, March 30 2020
 Massachusetts, Statewide, 6900000, Stay at home advisory, March 24 2020
 Michigan, Statewide, 10000000, Stay at home, March 24 2020
 Minnesota, Statewide, 5600000, Stay at home, March 27 2020
-Mississippi, Oxford , 25000, Stay at home, March 22 2020
-Mississippi, Tupelo , 50000, Shelter in place, March 22 2020
-Mississippi, Lauderdale County , 75000, Shelter in place, March 31 2020
-Missouri, Kansas City , 492000, Stay at home, March 24 2020
-Missouri, St. Joseph , 76000, Shelter in place, March 24 2020
-Missouri, St. Louis , 303000, Stay at home, March 23 2020
-Missouri, Boone County , 180000, Stay at home, March 25 2020
-Missouri, Cass County , 105000, Stay at home, March 24 2020
-Missouri, Clay County , 246000, Stay at home, March 24 2020
-Missouri, Cole County , 77000, Stay at home, March 23 2020
-Missouri, Greene County , 292000, Stay at home, March 26 2020
-Missouri, Jackson County , 700000, Stay at home, March 24 2020
-Missouri, Jefferson County , 224000, Stay at home, March 24 2020
-Missouri, Platte County , 103000, Shelter in place, March 24 2020
-Missouri, Randolph County , 25000, Stay at home, March 25 2020
-Missouri, Ray County , 23000, Stay at home, March 25 2020
-Missouri, St. Louis County , 1000000, Stay at home, March 23 2020
+Mississippi, Oxford, 25000, Stay at home, March 22 2020
+Mississippi, Tupelo, 50000, Shelter in place, March 22 2020
+Mississippi, Lauderdale, 75000, Shelter in place, March 31 2020
+Missouri, Kansas City, 492000, Stay at home, March 24 2020
+Missouri, St. Joseph, 76000, Shelter in place, March 24 2020
+Missouri, St. Louis, 1000000, Stay at home, March 23 2020
+Missouri, Boone, 180000, Stay at home, March 25 2020
+Missouri, Cass, 105000, Stay at home, March 24 2020
+Missouri, Clay, 246000, Stay at home, March 24 2020
+Missouri, Cole, 77000, Stay at home, March 23 2020
+Missouri, Greene, 292000, Stay at home, March 26 2020
+Missouri, Jackson, 700000, Stay at home, March 24 2020
+Missouri, Jefferson, 224000, Stay at home, March 24 2020
+Missouri, Platte, 103000, Shelter in place, March 24 2020
+Missouri, Randolph, 25000, Stay at home, March 25 2020
+Missouri, Ray, 23000, Stay at home, March 25 2020
 Montana, Statewide, 1100000, Stay at home, March 28 2020
 New Hampshire, Statewide, 1400000, Stay at home, March 27 2020
 New Jersey, Statewide, 8900000, Stay at home, March 21 2020
@@ -70,85 +69,87 @@ New Mexico, Statewide, 2100000, Stay at home, March 24 2020
 New York, Statewide, 19500000, Stay at home, March 22 2020
 North Carolina, Statewide, 10400000, Stay at home, March 30 2020
 Ohio, Statewide, 11700000, Stay at home, March 23 2020
-Oklahoma, Edmond , 93000, Shelter in place, March 30 2020
-Oklahoma, Norman , 123000, Stay at home, March 25 2020
-Oklahoma, Oklahoma City , 649000, Shelter in place, March 28 2020
-Oklahoma, Stillwater , 50000, Shelter in place, March 30 2020
-Oklahoma, Tulsa , 401000, Shelter in place, March 28 2020
+Oklahoma, Edmond, 93000, Shelter in place, March 30 2020
+Oklahoma, Norman, 123000, Stay at home, March 25 2020
+Oklahoma, Oklahoma City, 649000, Shelter in place, March 28 2020
+Oklahoma, Stillwater, 50000, Shelter in place, March 30 2020
+Oklahoma, Tulsa, 401000, Shelter in place, March 28 2020
 Oregon, Statewide, 4200000, Stay at home, March 23 2020
-Pennsylvania, Allegheny County , 1200000, Stay at home, March 23 2020
-Pennsylvania, Beaver County , 165000, Stay at home, March 28 2020
-Pennsylvania, Berks County , 420000, Stay at home, March 27 2020
-Pennsylvania, Bucks County , 628000, Stay at home, March 23 2020
-Pennsylvania, Butler County , 188000, Stay at home, March 27 2020
-Pennsylvania, Carbon County , 64000, Stay at home, March 30 2020
-Pennsylvania, Centre County , 163000, Stay at home, March 28 2020
-Pennsylvania, Chester County , 522000, Stay at home, March 23 2020
-Pennsylvania, Cumberland County , 251000, Stay at home, March 30 2020
-Pennsylvania, Dauphin County , 277000, Stay at home, March 30 2020
-Pennsylvania, Delaware County , 565000, Stay at home, March 23 2020
-Pennsylvania, Erie County , 272000, Stay at home, March 24 2020
-Pennsylvania, Lackawanna County , 211000, Stay at home, March 27 2020
-Pennsylvania, Lancaster County , 544000, Stay at home, March 27 2020
-Pennsylvania, Lehigh County , 368000, Stay at home, March 25 2020
-Pennsylvania, Luzerne County , 318000, Stay at home, March 27 2020
-Pennsylvania, Monroe County , 170000, Stay at home, March 23 2020
-Pennsylvania, Montgomery County , 829000, Stay at home, March 23 2020
-Pennsylvania, Northampton County , 305000, Stay at home, March 25 2020
-Pennsylvania, Philadelphia County , 1600000, Stay at home, March 23 2020
-Pennsylvania, Pike County , 56000, Stay at home, March 27 2020
-Pennsylvania, Schuylkill County , 142000, Stay at home, March 30 2020
-Pennsylvania, Washington County , 207000, Stay at home, March 28 2020
-Pennsylvania, Wayne County , 51000, Stay at home, March 27 2020
-Pennsylvania, Westmoreland County , 351000, Stay at home, March 27 2020
-Pennsylvania, York County , 448000, Stay at home, March 27 2020
+Pennsylvania, Allegheny, 1200000, Stay at home, March 23 2020
+Pennsylvania, Beaver, 165000, Stay at home, March 28 2020
+Pennsylvania, Berks, 420000, Stay at home, March 27 2020
+Pennsylvania, Bucks, 628000, Stay at home, March 23 2020
+Pennsylvania, Butler, 188000, Stay at home, March 27 2020
+Pennsylvania, Carbon, 64000, Stay at home, March 30 2020
+Pennsylvania, Centre, 163000, Stay at home, March 28 2020
+Pennsylvania, Chester, 522000, Stay at home, March 23 2020
+Pennsylvania, Cumberland, 251000, Stay at home, March 30 2020
+Pennsylvania, Dauphin, 277000, Stay at home, March 30 2020
+Pennsylvania, Delaware, 565000, Stay at home, March 23 2020
+Pennsylvania, Erie, 272000, Stay at home, March 24 2020
+Pennsylvania, Lackawanna, 211000, Stay at home, March 27 2020
+Pennsylvania, Lancaster, 544000, Stay at home, March 27 2020
+Pennsylvania, Lehigh, 368000, Stay at home, March 25 2020
+Pennsylvania, Luzerne, 318000, Stay at home, March 27 2020
+Pennsylvania, Monroe, 170000, Stay at home, March 23 2020
+Pennsylvania, Montgomery, 829000, Stay at home, March 23 2020
+Pennsylvania, Northampton, 305000, Stay at home, March 25 2020
+Pennsylvania, Philadelphia, 1600000, Stay at home, March 23 2020
+Pennsylvania, Pike, 56000, Stay at home, March 27 2020
+Pennsylvania, Schuylkill, 142000, Stay at home, March 30 2020
+Pennsylvania, Washington, 207000, Stay at home, March 28 2020
+Pennsylvania, Wayne, 51000, Stay at home, March 27 2020
+Pennsylvania, Westmoreland, 351000, Stay at home, March 27 2020
+Pennsylvania, York, 448000, Stay at home, March 27 2020
 Puerto Rico, Statewide, 3200000, Curfew, March 15 2020
 Rhode Island, Statewide, 1100000, Stay at home, March 28 2020
-South Carolina, Charleston , 136000, Stay at home, March 26 2020
-South Carolina, Columbia , 133000, Stay at home, March 29 2020
+South Carolina, Charleston, 136000, Stay at home, March 26 2020
+South Carolina, Columbia, 133000, Stay at home, March 29 2020
 Tennessee, Statewide, 6800000, Stay at home, March 31 2020
-Texas, Amarillo , 200000, Stay at home, March 30 2020
-Texas, Lubbock , 250000, Stay at home, March 29 2020
-Texas, Bell County , 356000, Shelter in place, March 23 2020
-Texas, Bexar County , 2000000, Stay at home, March 24 2020
-Texas, Brazoria County , 370000, Stay at home, March 26 2020
-Texas, Cameron County , 424000, Shelter in place, March 25 2020
-Texas, Chambers County , 42000, Stay at home, March 24 2020
-Texas, Collin County , 1000000, Stay at home, March 24 2020
-Texas, Dallas County , 2600000, Shelter in place, March 23 2020
-Texas, Denton County , 859000, Stay at home, March 25 2020
-Texas, El Paso County , 841000, Stay at home, March 24 2020
-Texas, Ellis County , 179000, Stay at home, March 25 2020
-Texas, Fort Bend County , 788000, Stay at home, March 25 2020
-Texas, Galveston County , 338000, Stay at home, March 24 2020
-Texas, Gregg County , 124000, Shelter in place, March 26 2020
-Texas, Harris County , 4700000, Stay at home, March 24 2020
-Texas, Harrison County , 67000, Shelter in place, March 31 2020
-Texas, Hays County , 223000, Stay at home, March 26 2020
-Texas, Hildalgo County , 866000, Shelter at home, March 26 2020
-Texas, Hunt County , 96000, Shelter in place, March 24 2020
-Texas, Kaufman County , 129000, Shelter in place, March 25 2020
-Texas, Liberty County , 86000, Stay at home, March 24 2020
-Texas, McLennan County , 255000, Shelter in place, March 23 2020
-Texas, Nacogdoches County , 66000, Stay at home, March 30 2020
-Texas, Nueces County , 362000, Stay at home, March 26 2020
-Texas, Polk County , 50000, Stay at home, March 27 2020
-Texas, Robertson County , 17000, Shelter in place, March 25 2020
-Texas, Rockwall County , 101000, Stay at home, March 24 2020
-Texas, San Jacinto County , 29000, Stay at home, March 25 2020
-Texas, Scurry County , 17000, Shelter in place, March 27 2020
-Texas, Smith County , 230000, Stay at home, March 27 2020
-Texas, Starr County , 65000, Stay at home, March 25 2020
-Texas, Tarrant County , 2100000, Stay at home, March 24 2020
-Texas, Travis County , 1200000, Stay at home, March 24 2020
-Texas, Wichita County , 132000, Shelter in place, March 27 2020
-Texas, Willacy County , 22000, Shelter in place, March 26 2020
-Texas, Williamson County , 567000, Stay at home, March 24 2020
-Utah, Salt Lake County , 1200000, Stay at home, March 30 2020
-Utah, Summit County , 42000, Stay at home, March 27 2020
+Texas, Amarillo, 200000, Stay at home, March 30 2020
+Texas, Lubbock, 250000, Stay at home, March 29 2020
+Texas, Bell, 356000, Shelter in place, March 23 2020
+Texas, Bexar, 2000000, Stay at home, March 24 2020
+Texas, Brazoria, 370000, Stay at home, March 26 2020
+Texas, Cameron, 424000, Shelter in place, March 25 2020
+Texas, Chambers, 42000, Stay at home, March 24 2020
+Texas, Collin, 1000000, Stay at home, March 24 2020
+Texas, Dallas, 2600000, Shelter in place, March 23 2020
+Texas, Denton, 859000, Stay at home, March 25 2020
+Texas, El Paso, 841000, Stay at home, March 24 2020
+Texas, Ellis, 179000, Stay at home, March 25 2020
+Texas, Fort Bend, 788000, Stay at home, March 25 2020
+Texas, Galveston, 338000, Stay at home, March 24 2020
+Texas, Gregg, 124000, Shelter in place, March 26 2020
+Texas, Harris, 4700000, Stay at home, March 24 2020
+Texas, Harrison, 67000, Shelter in place, March 31 2020
+Texas, Hays, 223000, Stay at home, March 26 2020
+Texas, Hildalgo, 866000, Shelter at home, March 26 2020
+Texas, Hunt, 96000, Shelter in place, March 24 2020
+Texas, Kaufman, 129000, Shelter in place, March 25 2020
+Texas, Liberty, 86000, Stay at home, March 24 2020
+Texas, McLennan, 255000, Shelter in place, March 23 2020
+Texas, Nacogdoches, 66000, Stay at home, March 30 2020
+Texas, Nueces, 362000, Stay at home, March 26 2020
+Texas, Polk, 50000, Stay at home, March 27 2020
+Texas, Robertson, 17000, Shelter in place, March 25 2020
+Texas, Rockwall, 101000, Stay at home, March 24 2020
+Texas, San Jacinto, 29000, Stay at home, March 25 2020
+Texas, Scurry, 17000, Shelter in place, March 27 2020
+Texas, Smith, 230000, Stay at home, March 27 2020
+Texas, Starr, 65000, Stay at home, March 25 2020
+Texas, Tarrant, 2100000, Stay at home, March 24 2020
+Texas, Travis, 1200000, Stay at home, March 24 2020
+Texas, Wichita, 132000, Shelter in place, March 27 2020
+Texas, Willacy, 22000, Shelter in place, March 26 2020
+Texas, Williamson, 567000, Stay at home, March 24 2020
+Utah, Salt Lake, 1200000, Stay at home, March 30 2020
+Utah, Summit, 42000, Stay at home, March 27 2020
 Vermont, Statewide, 626000, Stay at home, March 25 2020
 Virginia, Statewide, 8500000, Stay at home, March 30 2020
 Washington, Statewide, 7500000, Stay at home, March 23 2020
 West Virginia, Statewide, 1800000, Stay at home, March 24 2020
 Wisconsin, Statewide, 5800000, Stay at home, March 25 2020
-Wyoming, Jackson , 10000, Stay at home, March 28 2020
+Wyoming, Jackson, 10000, Stay at home, March 28 2020
+
+Script last run:,04/01/2020, Data from:,March 31 2020
