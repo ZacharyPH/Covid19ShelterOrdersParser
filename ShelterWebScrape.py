@@ -1,3 +1,4 @@
+from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 
@@ -20,7 +21,8 @@ def get_counties(state) -> dict:
         pop = populations(county.contents[1].contents[1].contents[0].replace(",", "").split(" ")[1:-1])
         order = county.contents[3].contents[0].strip(" ")
         when = county.contents[3].contents[1].contents[0].split(" ")[2:4]
-        date = " ".join(str(i) for i in when[:2]) + " 2020"
+        date_str = " ".join(str(i) for i in when[:2]) + " 2020"
+        date = datetime.strptime(date_str, "%B %d %Y").strftime("%m/%d/%Y")
         orders[name] = {"order": order, "date": date, "pop": pop}
     return orders
 
@@ -67,14 +69,13 @@ def populate_states(state_wraps, date, rebuild=False):
         states[st] = order
 
     if rebuild:
-        import datetime
         with open(datafile, "w") as orders:
             orders.write("State, County, Population, Order, Date\n")
             for state, info in states.items():
                 for county, order in info.items():
                     orders.write(state + ", " + county + ", " + str(order["pop"]) + ", "
                                  + order["order"] + ", " + order["date"] + "\n")
-            today = datetime.datetime.now().strftime("%m/%d/%Y")
+            today = datetime.now().strftime("%m/%d/%Y")
             orders.write("\nScript last run:," + today + ", Data from:," + date)
         print("Data written to", datafile)
     return states
