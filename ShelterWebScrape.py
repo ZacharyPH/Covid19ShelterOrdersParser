@@ -4,29 +4,29 @@ from bs4 import BeautifulSoup
 
 def get_order(place) -> dict:
     order = place.contents[1].contents[0]
-    when = place.contents[1].contents[1].contents[0].split(" ")[1:]
-    date = [" ".join(str(i) for i in when[:2]), " ".join(str(i) for i in when[3:5])]
+    when = place.contents[1].contents[1].contents[0].split(" ")[2:4]
+    date = " ".join(str(i) for i in when) + " 2020"
     return {"order": order, "date": date}
 
 
-def get_counties(state) -> dict:    # TODO: Implement
+def get_counties(state) -> dict:
     orders = {}
     for county in state.find_all(attrs={"class": "place-wrap"}):
         name = county.contents[1].contents[0]
-        pop = county.contents[1].contents[1].contents[0].replace(",", "").split(" ")[1:-1]
+        pop = populations(county.contents[1].contents[1].contents[0].replace(",", "").split(" ")[1:-1])
         order = county.contents[3].contents[0]
-        when = county.contents[3].contents[1].contents[0].split(" ")[2:]
-        date = [" ".join(str(i) for i in when[:2]), " ".join(str(i) for i in when[3:5])]
+        when = county.contents[3].contents[1].contents[0].split(" ")[2:4]
+        date = " ".join(str(i) for i in when[:2]) + " 2020"
         orders[name] = {"order": order, "date": date, "pop": pop}
     return orders
 
 
-def populations(pop):   # TODO: Implement (converts 'millions' into actual number)
-    pass
-
-
-def dates(date):    # TODO: Implement (converts words 'March 25' into actual date)
-    pass
+def populations(pop):
+    if len(pop) == 1:
+        return int(pop[0])
+    text2num = {"thousand": 1000,
+                "million": 1000000}
+    return int(float(pop[0]) * text2num[pop[1]])
 
 
 def get_state_wraps():
@@ -45,7 +45,7 @@ def populate_states(state_wraps, save=True):
         st = state_wrap.contents[1].next.strip(" ")
         if len(state_wrap.attrs["class"]) == 2:
             order = get_order(state_wrap.contents[5])
-            order["pop"] = state_wrap.contents[1].contents[1].contents[0].replace(",", "").split(" ")[1:-1]
+            order["pop"] = populations(state_wrap.contents[1].contents[1].contents[0].replace(",", "").split(" ")[1:-1])
             order = {"Statewide": order}
         else:
             order = get_counties(state_wrap)
