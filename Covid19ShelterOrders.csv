@@ -41,7 +41,7 @@ MS, Tupelo, 50000, Shelter in place, 03/22/2020
 MS, Lauderdale, 75000, Shelter in place, 03/31/2020
 MO, Kansas City, 492000, Stay at home, 03/24/2020
 MO, St. Joseph, 76000, Shelter in place, 03/24/2020
-MO, St. Louis, 1000000, Stay at home, 03/23/2020
+MO, St. Louis, 303000, Stay at home, 03/23/2020
 MO, Boone, 180000, Stay at home, 03/25/2020
 MO, Cass, 105000, Stay at home, 03/24/2020
 MO, Clay, 246000, Stay at home, 03/24/2020
@@ -52,6 +52,7 @@ MO, Jefferson, 224000, Stay at home, 03/24/2020
 MO, Platte, 103000, Shelter in place, 03/24/2020
 MO, Randolph, 25000, Stay at home, 03/25/2020
 MO, Ray, 23000, Stay at home, 03/25/2020
+MO, St. Louis, 1000000, Stay at home, 03/23/2020
 MT, Statewide, 1100000, Stay at home, 03/28/2020
 NV, Statewide, 3100000, Stay at home, 04/01/2020
 NH, Statewide, 1400000, Stay at home, 03/27/2020
@@ -143,4 +144,4 @@ WV, Statewide, 1800000, Stay at home, 03/24/2020
 WI, Statewide, 5800000, Stay at home, 03/25/2020
 WY, Jackson, 10000, Stay at home, 03/28/2020
 
-Script last run:,04/01/2020, Data from:,April 1 2020
+Script last run:,04/01/2020, Data from:,04/01/2020

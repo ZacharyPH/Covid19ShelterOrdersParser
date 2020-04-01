@@ -13,7 +13,7 @@ def get_order(place) -> dict:
 
 
 def get_counties(state) -> dict:
-    orders = {}
+    orders = []
     for county in state.find_all(attrs={"class": "place-wrap"}):
         name = county.contents[1].contents[0].strip(" ").split(" ")
         if name[-1] == "County":
@@ -25,7 +25,7 @@ def get_counties(state) -> dict:
         when = county.contents[3].contents[1].contents[0].split(" ")[2:4]
         date_str = " ".join(str(i) for i in when[:2]) + " 2020"
         date = datetime.strptime(date_str, "%B %d %Y").strftime("%m/%d/%Y")
-        orders[name] = {"order": order, "date": date, "pop": pop}
+        orders += [{"county": name, "order": order, "date": date, "pop": pop}]
     return orders
 
 
@@ -58,13 +58,14 @@ def populate_states(state_wraps, date, rebuild=False):
 
     print("Rebuilding...")
 
-    states = {}
+    states = {"State": [{"county": "County", "order": "Order", "date": "Date", "pop": "Population"}]}
     for state_wrap in state_wraps:
         st = state_abrv(state_wrap.contents[1].next.strip(" "))
         if len(state_wrap.attrs["class"]) == 2:
             order = get_order(state_wrap.contents[5])
             order["pop"] = populations(state_wrap.contents[1].contents[1].contents[0].replace(",", "").split(" ")[1:-1])
-            order = {"Statewide": order}
+            order["county"] = "Statewide"
+            order = [order]
         else:
             order = get_counties(state_wrap)
 
@@ -72,12 +73,13 @@ def populate_states(state_wraps, date, rebuild=False):
 
     if rebuild:
         with open(datafile, "w") as orders:
-            orders.write("State, County, Population, Order, Date\n")
-            for state, info in states.items():
-                for county, order in info.items():
-                    orders.write(state + ", " + county + ", " + str(order["pop"]) + ", "
-                                 + order["order"] + ", " + order["date"] + "\n")
+            # orders.write("State, County, Population, Order, Date\n")
+            for state, counties in states.items():
+                for county in counties:
+                    orders.write(state + ", " + county["county"] + ", " + str(county["pop"]) + ", "
+                                 + county["order"] + ", " + county["date"] + "\n")
             today = datetime.now().strftime("%m/%d/%Y")
+            date = datetime.strptime(date, "%B %d %Y").strftime("%m/%d/%Y")
             orders.write("\nScript last run:," + today + ", Data from:," + date)
         print("Data written to", datafile)
     return states
@@ -87,15 +89,27 @@ def parse_data(filename):
     states = {}
     orders = open(filename, "r")
     for line in orders.readlines()[:-2]:    # The final two lines reference update data and are not needed
-        st, cty, pop, order, date = line.split(", ")
-        states[st].append({cty: {"order": order, "date": date.strip("\n"), "pop": pop}})
+        st, county, pop, order, date = line.split(", ")
+        try:
+            pop = int(pop)
+        except ValueError:
+            pass
+        new_county = [{"county": county, "order": order, "date": date.strip("\n"), "pop": pop}]
+        try:
+            states[st] += new_county
+        except KeyError:
+            states[st] = new_county
     orders.close()
     return states
 
 
 def main():
-    state_wraps, date = get_state_wraps()
-    states = populate_states(state_wraps, date, rebuild=True)
+    rebuild = True
+    state_wraps, date = "", ""
+    if rebuild:
+        state_wraps, date = get_state_wraps()
+    states = populate_states(state_wraps, date, rebuild=rebuild)
+
     return states
 
 
