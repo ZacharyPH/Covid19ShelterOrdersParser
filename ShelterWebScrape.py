@@ -5,31 +5,32 @@ from StateCodes import state_abrv
 
 
 def get_order(place) -> dict:
-    order = place.contents[1].contents[0]
+    # order = place.contents[1].contents[0]
     when = (place.contents[1].contents[1].contents[0].split(" ") + ["0"])[2:4]
     date_str = " ".join(str(i) for i in when[:2] + ["2020"])
     date = datetime.strptime(date_str, "%B %d %Y").strftime("%m/%d/%Y")
-    return {"order": order, "date": date}
+    return {"date": date}   # {"order": order, "date": date}
 
 
-def get_counties(state) -> dict:
+def get_counties(state) -> list:
     orders = []
     for county in state.find_all(attrs={"class": "place-wrap"}):
         name = county.contents[1].contents[0].strip(" ").split(" ")
         if name[-1] == "County":
-            name = " ".join(name[:-1])
+            name = " ".join(name[:-1]).upper()
         else:
-            name = " ".join(name)
+            name = " ".join(name).upper()
         pop = populations(county.contents[1].contents[1].contents[0].replace(",", "").split(" ")[1:-1])
-        order = county.contents[3].contents[0].strip(" ")
+        # order = county.contents[3].contents[0].strip(" ")
         when = county.contents[3].contents[1].contents[0].split(" ")[2:4]
         date_str = " ".join(str(i) for i in when[:2]) + " 2020"
         date = datetime.strptime(date_str, "%B %d %Y").strftime("%m/%d/%Y")
-        orders += [{"county": name, "order": order, "date": date, "pop": pop}]
+        # [{"county": name, "order": order, "date": date, "pop": pop}]
+        orders += [{"county": name, "date": date, "pop": pop}]
     return orders
 
 
-def populations(pop):
+def populations(pop) -> int:
     if len(pop) == 1:
         return int(pop[0])
     text2num = {"thousand": 1000,
@@ -37,7 +38,7 @@ def populations(pop):
     return int(float(pop[0]) * text2num[pop[1]])
 
 
-def get_state_wraps():
+def get_state_wraps() -> BeautifulSoup.ResultSet:
     try:
         r = requests.get('https://www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html')
     except requests.exceptions.MissingSchema:
@@ -48,7 +49,7 @@ def get_state_wraps():
     return soup.find_all(attrs={"class": "state-wrap"}), date
 
 
-def populate_states(state_wraps, date, rebuild=False):
+def populate_states(state_wraps, date, rebuild=False) -> dict:
     datafile = "Covid19ShelterOrders.csv"
     if not rebuild:
         try:
@@ -64,7 +65,7 @@ def populate_states(state_wraps, date, rebuild=False):
         if len(state_wrap.attrs["class"]) == 2:
             order = get_order(state_wrap.contents[5])
             order["pop"] = populations(state_wrap.contents[1].contents[1].contents[0].replace(",", "").split(" ")[1:-1])
-            order["county"] = "Statewide"
+            order["county"] = "STATEWIDE"
             order = [order]
         else:
             order = get_counties(state_wrap)
@@ -76,8 +77,8 @@ def populate_states(state_wraps, date, rebuild=False):
             # orders.write("State, County, Population, Order, Date\n")
             for state, counties in states.items():
                 for county in counties:
-                    orders.write(state + ", " + county["county"] + ", " + str(county["pop"]) + ", "
-                                 + county["order"] + ", " + county["date"] + "\n")
+                    orders.write(state + "," + county["county"] + "," + str(county["pop"]) + ","
+                                 + "," + county["date"] + "\n")  # county["order"]
             today = datetime.now().strftime("%m/%d/%Y")
             date = datetime.strptime(date, "%B %d %Y").strftime("%m/%d/%Y")
             orders.write("\nScript last run:," + today + ", Data from:," + date)
@@ -85,7 +86,7 @@ def populate_states(state_wraps, date, rebuild=False):
     return states
 
 
-def parse_data(filename):
+def parse_data(filename) -> dict:
     states = {}
     orders = open(filename, "r")
     for line in orders.readlines()[:-2]:    # The final two lines reference update data and are not needed
@@ -94,7 +95,7 @@ def parse_data(filename):
             pop = int(pop)
         except ValueError:
             pass
-        new_county = [{"county": county, "order": order, "date": date.strip("\n"), "pop": pop}]
+        new_county = [{"county": county, "date": date.strip("\n"), "pop": pop}]  # "order": order,
         try:
             states[st] += new_county
         except KeyError:
@@ -103,7 +104,7 @@ def parse_data(filename):
     return states
 
 
-def main():
+def main() -> dict:
     rebuild = True
     state_wraps, date = "", ""
     if rebuild:

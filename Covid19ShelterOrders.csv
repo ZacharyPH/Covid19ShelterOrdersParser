@@ -1,147 +1,130 @@
-State, County, Population, Order, Date
-AL, Birmingham, 210000, Shelter in place, 03/24/2020
-AK, Statewide, 737000, Stay at home, 03/28/2020
-AZ, Statewide, 7200000, Stay at home, 03/31/2020
-CA, Statewide, 39600000, Stay at home, 03/19/2020
-CO, Statewide, 5700000, Stay at home, 03/26/2020
-CT, Statewide, 3600000, Stay at home, 03/23/2020
-DE, Statewide, 973000, Shelter in place, 03/24/2020
-DC, Statewide, 702000, Stay at home, 04/01/2020
-FL, Statewide, 21500000, Stay at home, 04/03/2020
-GA, Atlanta, 498000, Stay at home, 03/24/2020
-GA, Avondale Estates, 3000, Stay at home, 03/26/2020
-GA, Blakely, 5000, Shelter in place, 03/24/2020
-GA, Brookhaven, 53000, Shelter in place, 03/24/2020
-GA, Carrollton, 26000, Shelter in place, 03/25/2020
-GA, Chamblee, 30000, Stay at home, 03/28/2020
-GA, Clarkston, 13000, Stay at home, 03/29/2020
-GA, Decatur, 23000, Stay at home, 03/25/2020
-GA, Doraville, 11000, Shelter in place, 03/26/2020
-GA, Dunwoody, 49000, Shelter in place, 03/29/2020
-GA, Forest Park, 20000, Shelter in place, 03/30/2020
-GA, Savannah, 146000, Shelter in place, 03/24/2020
-GA, Athens-Clarke, 126000, Shelter in place, 03/20/2020
-GA, Cobb, 757000, Shelter in place, 03/25/2020
-GA, Dougherty, 91000, Shelter in place, 03/21/2020
-GA, Gwinnett, 928000, Stay at home, 03/28/2020
-HI, Statewide, 1400000, Stay at home, 03/25/2020
-ID, Statewide, 1800000, Stay at home, 03/25/2020
-IL, Statewide, 12700000, Stay at home, 03/21/2020
-IN, Statewide, 6700000, Stay at home, 03/24/2020
-KS, Statewide, 2900000, Stay at home, 03/30/2020
-KY, Statewide, 4500000, Healthy at home, 03/26/2020
-LA, Statewide, 4600000, Stay at home, 03/23/2020
-ME, Statewide, 1300000, Stay at home, 04/02/2020
-MD, Statewide, 6000000, Stay at home, 03/30/2020
-MA, Statewide, 6900000, Stay at home advisory, 03/24/2020
-MI, Statewide, 10000000, Stay at home, 03/24/2020
-MN, Statewide, 5600000, Stay at home, 03/27/2020
-MS, Oxford, 25000, Stay at home, 03/22/2020
-MS, Tupelo, 50000, Shelter in place, 03/22/2020
-MS, Lauderdale, 75000, Shelter in place, 03/31/2020
-MO, Kansas City, 492000, Stay at home, 03/24/2020
-MO, St. Joseph, 76000, Shelter in place, 03/24/2020
-MO, St. Louis, 303000, Stay at home, 03/23/2020
-MO, Boone, 180000, Stay at home, 03/25/2020
-MO, Cass, 105000, Stay at home, 03/24/2020
-MO, Clay, 246000, Stay at home, 03/24/2020
-MO, Cole, 77000, Stay at home, 03/23/2020
-MO, Greene, 292000, Stay at home, 03/26/2020
-MO, Jackson, 700000, Stay at home, 03/24/2020
-MO, Jefferson, 224000, Stay at home, 03/24/2020
-MO, Platte, 103000, Shelter in place, 03/24/2020
-MO, Randolph, 25000, Stay at home, 03/25/2020
-MO, Ray, 23000, Stay at home, 03/25/2020
-MO, St. Louis, 1000000, Stay at home, 03/23/2020
-MT, Statewide, 1100000, Stay at home, 03/28/2020
-NV, Statewide, 3100000, Stay at home, 04/01/2020
-NH, Statewide, 1400000, Stay at home, 03/27/2020
-NJ, Statewide, 8900000, Stay at home, 03/21/2020
-NM, Statewide, 2100000, Stay at home, 03/24/2020
-NY, Statewide, 19500000, Stay at home, 03/22/2020
-NC, Statewide, 10400000, Stay at home, 03/30/2020
-OH, Statewide, 11700000, Stay at home, 03/23/2020
-OK, Edmond, 93000, Shelter in place, 03/30/2020
-OK, Norman, 123000, Stay at home, 03/25/2020
-OK, Oklahoma City, 649000, Shelter in place, 03/28/2020
-OK, Stillwater, 50000, Shelter in place, 03/30/2020
-OK, Tulsa, 401000, Shelter in place, 03/28/2020
-OR, Statewide, 4200000, Stay at home, 03/23/2020
-PA, Allegheny, 1200000, Stay at home, 03/23/2020
-PA, Beaver, 165000, Stay at home, 03/28/2020
-PA, Berks, 420000, Stay at home, 03/27/2020
-PA, Bucks, 628000, Stay at home, 03/23/2020
-PA, Butler, 188000, Stay at home, 03/27/2020
-PA, Carbon, 64000, Stay at home, 03/30/2020
-PA, Centre, 163000, Stay at home, 03/28/2020
-PA, Chester, 522000, Stay at home, 03/23/2020
-PA, Cumberland, 251000, Stay at home, 03/30/2020
-PA, Dauphin, 277000, Stay at home, 03/30/2020
-PA, Delaware, 565000, Stay at home, 03/23/2020
-PA, Erie, 272000, Stay at home, 03/24/2020
-PA, Lackawanna, 211000, Stay at home, 03/27/2020
-PA, Lancaster, 544000, Stay at home, 03/27/2020
-PA, Lehigh, 368000, Stay at home, 03/25/2020
-PA, Luzerne, 318000, Stay at home, 03/27/2020
-PA, Monroe, 170000, Stay at home, 03/23/2020
-PA, Montgomery, 829000, Stay at home, 03/23/2020
-PA, Northampton, 305000, Stay at home, 03/25/2020
-PA, Philadelphia, 1600000, Stay at home, 03/23/2020
-PA, Pike, 56000, Stay at home, 03/27/2020
-PA, Schuylkill, 142000, Stay at home, 03/30/2020
-PA, Washington, 207000, Stay at home, 03/28/2020
-PA, Wayne, 51000, Stay at home, 03/27/2020
-PA, Westmoreland, 351000, Stay at home, 03/27/2020
-PA, York, 448000, Stay at home, 03/27/2020
-PR, Statewide, 3200000, Curfew, 03/15/2020
-RI, Statewide, 1100000, Stay at home, 03/28/2020
-SC, Charleston, 136000, Stay at home, 03/26/2020
-SC, Columbia, 133000, Stay at home, 03/29/2020
-TN, Statewide, 6800000, Stay at home, 03/31/2020
-TX, Amarillo, 200000, Stay at home, 03/30/2020
-TX, Lubbock, 250000, Stay at home, 03/29/2020
-TX, Bell, 356000, Shelter in place, 03/23/2020
-TX, Bexar, 2000000, Stay at home, 03/24/2020
-TX, Brazoria, 370000, Stay at home, 03/26/2020
-TX, Cameron, 424000, Shelter in place, 03/25/2020
-TX, Chambers, 42000, Stay at home, 03/24/2020
-TX, Collin, 1000000, Stay at home, 03/24/2020
-TX, Dallas, 2600000, Shelter in place, 03/23/2020
-TX, Denton, 859000, Stay at home, 03/25/2020
-TX, El Paso, 841000, Stay at home, 03/24/2020
-TX, Ellis, 179000, Stay at home, 03/25/2020
-TX, Fort Bend, 788000, Stay at home, 03/25/2020
-TX, Galveston, 338000, Stay at home, 03/24/2020
-TX, Gregg, 124000, Shelter in place, 03/26/2020
-TX, Harris, 4700000, Stay at home, 03/24/2020
-TX, Harrison, 67000, Shelter in place, 03/31/2020
-TX, Hays, 223000, Stay at home, 03/26/2020
-TX, Hildalgo, 866000, Shelter at home, 03/26/2020
-TX, Hunt, 96000, Shelter in place, 03/24/2020
-TX, Kaufman, 129000, Shelter in place, 03/25/2020
-TX, Liberty, 86000, Stay at home, 03/24/2020
-TX, McLennan, 255000, Shelter in place, 03/23/2020
-TX, Nacogdoches, 66000, Stay at home, 03/30/2020
-TX, Nueces, 362000, Stay at home, 03/26/2020
-TX, Polk, 50000, Stay at home, 03/27/2020
-TX, Robertson, 17000, Shelter in place, 03/25/2020
-TX, Rockwall, 101000, Stay at home, 03/24/2020
-TX, San Jacinto, 29000, Stay at home, 03/25/2020
-TX, Scurry, 17000, Shelter in place, 03/27/2020
-TX, Smith, 230000, Stay at home, 03/27/2020
-TX, Starr, 65000, Stay at home, 03/25/2020
-TX, Tarrant, 2100000, Stay at home, 03/24/2020
-TX, Travis, 1200000, Stay at home, 03/24/2020
-TX, Wichita, 132000, Shelter in place, 03/27/2020
-TX, Willacy, 22000, Shelter in place, 03/26/2020
-TX, Williamson, 567000, Stay at home, 03/24/2020
-UT, Salt Lake, 1200000, Stay at home, 03/30/2020
-UT, Summit, 42000, Stay at home, 03/27/2020
-VT, Statewide, 626000, Stay at home, 03/25/2020
-VA, Statewide, 8500000, Stay at home, 03/30/2020
-WA, Statewide, 7500000, Stay at home, 03/23/2020
-WV, Statewide, 1800000, Stay at home, 03/24/2020
-WI, Statewide, 5800000, Stay at home, 03/25/2020
-WY, Jackson, 10000, Stay at home, 03/28/2020
+State,County,Population,Order,Date
+AL,BIRMINGHAM,210000,Shelter in place,03/24/2020
+AK,STATEWIDE,737000,Stay at home,03/28/2020
+AZ,STATEWIDE,7200000,Stay at home,03/31/2020
+CA,STATEWIDE,39600000,Stay at home,03/19/2020
+CO,STATEWIDE,5700000,Stay at home,03/26/2020
+CT,STATEWIDE,3600000,Stay at home,03/23/2020
+DE,STATEWIDE,973000,Shelter in place,03/24/2020
+DC,STATEWIDE,702000,Stay at home,04/01/2020
+FL,STATEWIDE,21500000,Stay at home,04/03/2020
+GA,STATEWIDE,10600000,Shelter in place,04/03/2020
+HI,STATEWIDE,1400000,Stay at home,03/25/2020
+ID,STATEWIDE,1800000,Stay at home,03/25/2020
+IL,STATEWIDE,12700000,Stay at home,03/21/2020
+IN,STATEWIDE,6700000,Stay at home,03/24/2020
+KS,STATEWIDE,2900000,Stay at home,03/30/2020
+KY,STATEWIDE,4500000,Healthy at home,03/26/2020
+LA,STATEWIDE,4600000,Stay at home,03/23/2020
+ME,STATEWIDE,1300000,Stay at home,04/02/2020
+MD,STATEWIDE,6000000,Stay at home,03/30/2020
+MA,STATEWIDE,6900000,Stay at home advisory,03/24/2020
+MI,STATEWIDE,10000000,Stay at home,03/24/2020
+MN,STATEWIDE,5600000,Stay at home,03/27/2020
+MS,STATEWIDE,3000000,Shelter in place,04/03/2020
+MO,KANSAS CITY,492000,Stay at home,03/24/2020
+MO,ST. JOSEPH,76000,Shelter in place,03/24/2020
+MO,ST. LOUIS,303000,Stay at home,03/23/2020
+MO,BOONE,180000,Stay at home,03/25/2020
+MO,CASS,105000,Stay at home,03/24/2020
+MO,CLAY,246000,Stay at home,03/24/2020
+MO,COLE,77000,Stay at home,03/23/2020
+MO,GREENE,292000,Stay at home,03/26/2020
+MO,JACKSON,700000,Stay at home,03/24/2020
+MO,JEFFERSON,224000,Stay at home,03/24/2020
+MO,PLATTE,103000,Shelter in place,03/24/2020
+MO,RANDOLPH,25000,Stay at home,03/25/2020
+MO,RAY,23000,Stay at home,03/25/2020
+MO,ST. LOUIS,1000000,Stay at home,03/23/2020
+MT,STATEWIDE,1100000,Stay at home,03/28/2020
+NV,STATEWIDE,3100000,Stay at home,04/01/2020
+NH,STATEWIDE,1400000,Stay at home,03/27/2020
+NJ,STATEWIDE,8900000,Stay at home,03/21/2020
+NM,STATEWIDE,2100000,Stay at home,03/24/2020
+NY,STATEWIDE,19500000,Stay at home,03/22/2020
+NC,STATEWIDE,10400000,Stay at home,03/30/2020
+OH,STATEWIDE,11700000,Stay at home,03/23/2020
+OK,EDMOND,93000,Shelter in place,03/30/2020
+OK,NORMAN,123000,Stay at home,03/25/2020
+OK,OKLAHOMA CITY,649000,Shelter in place,03/28/2020
+OK,STILLWATER,50000,Shelter in place,03/30/2020
+OK,TULSA,401000,Shelter in place,03/28/2020
+OR,STATEWIDE,4200000,Stay at home,03/23/2020
+PA,ALLEGHENY,1200000,Stay at home,03/23/2020
+PA,BEAVER,165000,Stay at home,03/28/2020
+PA,BERKS,420000,Stay at home,03/27/2020
+PA,BUCKS,628000,Stay at home,03/23/2020
+PA,BUTLER,188000,Stay at home,03/27/2020
+PA,CARBON,64000,Stay at home,03/30/2020
+PA,CENTRE,163000,Stay at home,03/28/2020
+PA,CHESTER,522000,Stay at home,03/23/2020
+PA,CUMBERLAND,251000,Stay at home,03/30/2020
+PA,DAUPHIN,277000,Stay at home,03/30/2020
+PA,DELAWARE,565000,Stay at home,03/23/2020
+PA,ERIE,272000,Stay at home,03/24/2020
+PA,LACKAWANNA,211000,Stay at home,03/27/2020
+PA,LANCASTER,544000,Stay at home,03/27/2020
+PA,LEHIGH,368000,Stay at home,03/25/2020
+PA,LUZERNE,318000,Stay at home,03/27/2020
+PA,MONROE,170000,Stay at home,03/23/2020
+PA,MONTGOMERY,829000,Stay at home,03/23/2020
+PA,NORTHAMPTON,305000,Stay at home,03/25/2020
+PA,PHILADELPHIA,1600000,Stay at home,03/23/2020
+PA,PIKE,56000,Stay at home,03/27/2020
+PA,SCHUYLKILL,142000,Stay at home,03/30/2020
+PA,WASHINGTON,207000,Stay at home,03/28/2020
+PA,WAYNE,51000,Stay at home,03/27/2020
+PA,WESTMORELAND,351000,Stay at home,03/27/2020
+PA,YORK,448000,Stay at home,03/27/2020
+PR,STATEWIDE,3200000,Curfew,03/15/2020
+RI,STATEWIDE,1100000,Stay at home,03/28/2020
+SC,CHARLESTON,136000,Stay at home,03/26/2020
+SC,COLUMBIA,133000,Stay at home,03/29/2020
+TN,STATEWIDE,6800000,Stay at home,03/31/2020
+TX,AMARILLO,200000,Stay at home,03/30/2020
+TX,LUBBOCK,250000,Stay at home,03/29/2020
+TX,BELL,356000,Shelter in place,03/23/2020
+TX,BEXAR,2000000,Stay at home,03/24/2020
+TX,BRAZORIA,370000,Stay at home,03/26/2020
+TX,CAMERON,424000,Shelter in place,03/25/2020
+TX,CHAMBERS,42000,Stay at home,03/24/2020
+TX,COLLIN,1000000,Stay at home,03/24/2020
+TX,DALLAS,2600000,Shelter in place,03/23/2020
+TX,DENTON,859000,Stay at home,03/25/2020
+TX,EL PASO,841000,Stay at home,03/24/2020
+TX,ELLIS,179000,Stay at home,03/25/2020
+TX,FORT BEND,788000,Stay at home,03/25/2020
+TX,GALVESTON,338000,Stay at home,03/24/2020
+TX,GREGG,124000,Shelter in place,03/26/2020
+TX,HARRIS,4700000,Stay at home,03/24/2020
+TX,HARRISON,67000,Shelter in place,03/31/2020
+TX,HAYS,223000,Stay at home,03/26/2020
+TX,HILDALGO,866000,Shelter at home,03/26/2020
+TX,HUNT,96000,Shelter in place,03/24/2020
+TX,KAUFMAN,129000,Shelter in place,03/25/2020
+TX,LIBERTY,86000,Stay at home,03/24/2020
+TX,MCLENNAN,255000,Shelter in place,03/23/2020
+TX,NACOGDOCHES,66000,Stay at home,03/30/2020
+TX,NUECES,362000,Stay at home,03/26/2020
+TX,POLK,50000,Stay at home,03/27/2020
+TX,ROBERTSON,17000,Shelter in place,03/25/2020
+TX,ROCKWALL,101000,Stay at home,03/24/2020
+TX,SAN JACINTO,29000,Stay at home,03/25/2020
+TX,SCURRY,17000,Shelter in place,03/27/2020
+TX,SMITH,230000,Stay at home,03/27/2020
+TX,STARR,65000,Stay at home,03/25/2020
+TX,TARRANT,2100000,Stay at home,03/24/2020
+TX,TRAVIS,1200000,Stay at home,03/24/2020
+TX,WICHITA,132000,Shelter in place,03/27/2020
+TX,WILLACY,22000,Shelter in place,03/26/2020
+TX,WILLIAMSON,567000,Stay at home,03/24/2020
+UT,SALT LAKE,1200000,Stay at home,03/30/2020
+UT,SUMMIT,42000,Stay at home,03/27/2020
+VT,STATEWIDE,626000,Stay at home,03/25/2020
+VA,STATEWIDE,8500000,Stay at home,03/30/2020
+WA,STATEWIDE,7500000,Stay at home,03/23/2020
+WV,STATEWIDE,1800000,Stay at home,03/24/2020
+WI,STATEWIDE,5800000,Stay at home,03/25/2020
+WY,JACKSON,10000,Stay at home,03/28/2020
 
 Script last run:,04/01/2020, Data from:,04/01/2020
