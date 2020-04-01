@@ -41,8 +41,8 @@ def populations(pop) -> int:
     return int(float(pop[0]) * text2num[pop[1]])
 
 
-def get_state_wraps() -> BeautifulSoup.ResultSet:
-    """Parses the NTY article for a list of state and county orders"""
+def get_state_wraps():
+    """Parses the NTY article for a list of state and county orders, returns bs4.element.ResultSet"""
     try:
         r = requests.get('https://www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html')
     except requests.exceptions.MissingSchema:
@@ -56,7 +56,7 @@ def get_state_wraps() -> BeautifulSoup.ResultSet:
 def populate_states(state_wraps, date, rebuild=False) -> dict:
     """
     Attempts to retrieve state and county order
-    :param state_wraps: BeautifulSoup.ResultSet of state data
+    :param state_wraps: bs4.element.ResultSet of state data
     :param date: date NYT article was last updated
     :param rebuild: (T) fetch website data and update files. (F) retrieve local data from previous fetch
     :return:
@@ -89,10 +89,10 @@ def populate_states(state_wraps, date, rebuild=False) -> dict:
             for state, counties in states.items():
                 for county in counties:
                     orders.write(state + "," + county["county"] + "," + str(county["pop"]) + ","
-                                 + "," + county["date"] + "\n")  # county["order"]
+                                 + county["date"] + "\n")  # county["order"]
             today = datetime.now().strftime("%m/%d/%Y")
             date = datetime.strptime(date, "%B %d %Y").strftime("%m/%d/%Y")
-            orders.write("\nScript last run:," + today + ", Data from:," + date)
+            orders.write(",,,\nScript last run:," + today + ", Data from:," + date)
         print("Data written to", datafile)
     return states
 
