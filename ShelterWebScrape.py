@@ -55,7 +55,7 @@ def get_state_wraps():
 
 def populate_states(state_wraps, date, rebuild=False) -> dict:
     """
-    Attempts to retrieve state and county order
+    Attempts to retrieve state and county orders
     :param state_wraps: bs4.element.ResultSet of state data
     :param date: date NYT article was last updated
     :param rebuild: (T) fetch website data and update files. (F) retrieve local data from previous fetch
